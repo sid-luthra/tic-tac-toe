@@ -7,6 +7,7 @@
 
     --accent-color: rgb(120,0,0);
     --hover-color: rgb(180, 120, 120);
+    --marker: "X";
 }
 
 *, *:before, *:after {
@@ -100,4 +101,5 @@ body {
 
 .squares:hover {
     background-color: var(--hover-color);
+    transition: background-color 400ms ease-in-out;
 }
